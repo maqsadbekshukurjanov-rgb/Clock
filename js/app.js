@@ -51,7 +51,7 @@ function Up(){
     let m = now.getMinutes();
     let s = now.getSeconds();
 
-
+    clock.textContent = h + ":" + m + ":" + s;
 }
 
 setInterval(Up, 1000);
